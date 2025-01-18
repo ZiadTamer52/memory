@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Friendship Memory Book</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- Admin Login (Initially only the button will show) -->
+<div id="adminLogin">
+    <button onclick="showPasswordInput()">Login as Admin</button>
+    <div id="passwordInputContainer" style="display:none;">
+        <input type="password" id="adminPassword" placeholder="Enter Admin Password">
+        <button onclick="authenticateAdmin()">Submit Password</button>
+    </div>
+</div>
+
+<div class="container">
+
+    <h1>Friendship Memory Book</h1>
+
+    <!-- Memory Form -->
+    <div id="memoryForm">
+        <input type="file" id="memoryImage" accept="image/*"><br>
+        <textarea id="memoryText" placeholder="Write your memory here..."></textarea><br>
+        <button onclick="saveMemory()">Add Memory</button>
+    </div>
+
+    <!-- Display Memories -->
+    <div id="memoryContainer"></div>
+
+</div>
+
+<script src="scripts.js"></script>
+
+</body>
+</html>
