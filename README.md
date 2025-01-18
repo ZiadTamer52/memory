@@ -1,4 +1,7 @@
 # Friendship Memory Book
+![HTML](https://img.shields.io/badge/HTML-5-orange)
+![C++](https://img.shields.io/badge/C%2B%2B-11-blue)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellowgreen)
 
 ## 📖 About the Project
 The *Friendship Memory Book* is a digital collection designed to preserve and cherish memories shared with friends. This project allows users to create, store, and revisit their favorite moments through a user-friendly interface.
